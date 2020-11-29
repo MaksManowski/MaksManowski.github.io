@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="default-style">
+	<title>Unit 1.1</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<a href="index.html">
+	<img src="images/home.svg" height=100px> </a>
+	<h1>The Characteristics of contemporary processors, input, output and storage devices.</h1>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th> <!-- Have it as §V1§2§3 and then extend?-->
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+        <pre id="data" class="hidden"> //Edit css margin widths
+!1.1.1 Structure and function of the processor
+[img="image.png"]
+-Control Unit
+Manages the execution of instructions. It does the Fetch - Decode - Execute cycle. It can send control signals to carry out instructions. Signals are sent along the control bus. Sometimes shown in two parts: Multiplexer and the decoder.
+-Arithmetic and Logic Unit (ALU)
+The ALU carries out all the logical and arithmetic comparisons. It also acts as a gateway for I/O as all inputs and outputs pass through it before being directed to other parts of the processor or system.
+-Registers:
+|Program Counter (PC) |- Always holds onto the addres of the next instruction to be processed. It increments when read. Instructions are always stored in order. Can be written to.
+|Accumulator (ACC) |- Holds the data of the current instruction that is being processed. Results of processing are stored here. The results of the ALU are stored in here. (As all I/O goes through the ALU, it also goes through the ACC).
+|Memory Address Register (MAR) |- Stores the address that was read from the PC. Holds the address of the instruction or data to be fetched from memory.
+|Memory Data Register (MDR) |- Memory is searched and a copy of whatever instruction is held at the position stated in the MAR is stored in the MDR. (As MAR can be altered, the MDR is used as a cache - sort of)
+|Current Instruction Register (CIR) |- Instructions from the MDR are copied here and split in two (opcode and operand). One part holds the actual instruction to be carried out (which is sent to the CU) and the other holds the position in memory of the data that will be used in the instruction.
+-Buses:
+|Data |- Carries data between components. (?)
+|Address |- Carries addresses to where the data is going.
+|Control |- Signals from the Control Unit.
+
+-The Fetch-Decode-Execute Cycle
+Bla bla
+
+-Factors affecting performance
+Performace is measured as cycles per seccond or clockspeed in Hertz (Hz).
+|Cores |- More cores means multiple instructions can be processed at the same time.
+|Cache |- Holds temporary values that are used frequently. Volatile memory that the CPU uses to reduce the average cost (time/energy) to access data from RAM/secondary storage as it is located physically closer to he processor core. Small but fast. If it requests data that is not in the cache it is known as a "cache miss". If it has a lot of misses, the overall speed of the system will be substantially reduced.
+
+-Multicore and parrallel systems
+[img]
+|Vector/Array Processing |- 
+|Pipelining |- //At  second
+|Multi core |- 
+
+!1.1.2 Types of processors
+!1.1.3 Input, output and storage
+		</pre>
+		<pre id="questions" class="hidden"> //As either fill the gap or multiple choice.
+The *Memory* *Data* Register* - Memory is searched and a copy of whatever *instruction* is held at the position stated in the MAR is stored in the MDR.
+		</pre>
+</html>

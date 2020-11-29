@@ -1,0 +1,80 @@
+body {
+	background-color: #B0E0E6;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: 30px;
+}
+h1 {
+	text-align: center;
+}
+a {
+	color: #000000;
+	text-decoration: underline red;
+	text-decoration-color: red;
+}
+.black{
+	color: #000000;
+}
+.red {
+	color: #E00000;
+}
+h2 {
+	background-color: #ddffff;
+	border-left: 6px solid #ccc;
+	border-left-color: #2B80FF;
+	padding: 0.01em 14px;
+	box-sizing: inherit;
+	line-height: 1.5;
+	margin-right: 120px;
+	margin-left: 20px;
+	text-align: left;
+	color: #000000 !important;
+	text-decoration: none;
+}
+h2:hover {
+	background-color: #ffffdd;
+}
+h3 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+h4 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+.hidden {
+	display: none;
+}
+img {
+	float: right;
+}
+p {
+	margin-top: 0.05em;
+	margin-bottom: 0.05em;
+	margin-left: 10px;
+}
+.nbold {
+	font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.bolder {
+	font-weight: 900;
+}
+.uline {
+	text-decoration: underline;
+}
+.uoline {
+  text-decoration: underline overline;
+}
+.uolinered {
+  text-decoration: underline overline red;
+}
+.ulinewavy {
+  text-decoration: underline red wavy;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
